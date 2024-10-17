@@ -47,11 +47,11 @@
   }
   .services{
     display: grid;
-  grid-template-columns: repeat(2, ); 
-    display: flex;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-template-rows:repeat(2,1fr) ;
     justify-content: center;
     justify-content: space-evenly;
-    
+    gap: 30px;
   
   }
   .service1{
