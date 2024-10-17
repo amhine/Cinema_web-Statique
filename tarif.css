@@ -51,7 +51,8 @@
   grid-template-rows:repeat(2,1fr) ;
     justify-content: center;
     justify-content: space-evenly;
-    gap: 30px;
+    
+    gap: 200px;
   
   }
   .service1{
