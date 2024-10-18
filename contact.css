@@ -48,62 +48,69 @@
     
     margin: 100px;
     
-      height:600 ;
+     
       background: linear-gradient(to bottom right,#CA26FF 7%,#F4CAC0 85%,#FFF3B0 100%) ;
       border-radius: 20px 0px 100px 20px;
-      display: flex;
+     display: flex;
+     justify-content: center;
+     
+
       
     }
     .div1{
       margin: 100px; 
+      padding: 50px;
       background-color: #FF99FC;
       height: 400px;
       width: 800px;
       display: grid;
-      grid-template-rows: repeat(5,1fr);
-      grid-template-columns: repeat(5,1fr);
+      
+      
+     
+    
     
     
     
     }
     .div2{
-      grid-column-start: 1;
-          grid-column-end: 2;
-
-          grid-row-start: 3;
-          grid-row-end: 5;
-     
+    
+      background-color: #FF66FA;
+      
+      width: 250px;
+      
+      display: flex;
+      
     }
-       
+    .centrer{
+      DISPLAY: flex;
+      justify-content: center;
+      align-items: center;
+    }
       
      
     
       
-        }
+        
         .inpnam{
           background-color: #FF66FA;
           color: black;
-          grid-column-start: 3;
-          grid-column-end: 4;
-          grid-row-start: 2;
-          grid-row-end: 4;
+          width: 300px;
+          height: 50px;
+       
         }
         .inpmail{
           background-color: #FF66FA;
           color: black;
-          grid-column-start: 4;
-          grid-column-end: 5;
-          grid-row-start: 2;
-          grid-row-end: 4;
+          width: 300px;
+          height: 50px;
+          
         }
         .inpmsg{
           background-color: #FF66FA;
           color: black;
+          width: 500px;
           height: 100px;
-          grid-column-start: 5;
-          grid-column-end: 5;
-          grid-row-start: 2;
-          grid-row-end: 6;
+         
           
 
         }
@@ -151,4 +158,19 @@
   .posi{
     padding-left: 50px;
     justify-content: space-between;
+  }
+  .prsnd{
+    display: flex;
+    justify-content: end;
+  }
+  .send{
+    
+    color: black;
+    background-color: #FF66FA;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 20px 20px 20px;
+    
   }
