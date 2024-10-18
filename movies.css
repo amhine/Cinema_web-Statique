@@ -1,5 +1,5 @@
 .dis{
-  
+  padding: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +43,7 @@
     
   }
   .ligne-texte {
+   
     display: flex;
     align-items: center;
     
@@ -53,6 +54,7 @@
   .ph{
     display: flex;
     justify-content: space-around;
+    
     
 
   }
@@ -65,9 +67,11 @@
    
   }
   .foter{
+    margin-top: 150px;
     padding: 20px;
     background-color: #330031;
     color: white; 
+     
   }
   footer{
    

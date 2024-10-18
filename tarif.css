@@ -68,13 +68,15 @@
   }
   .ecrit{
     margin-left: 20px;
-    
+    padding-top: 50px;
+      
     
    }
    .p1{
      border-radius: 10px 10px 10px 10px;
      box-shadow: 2px 2px 2px 2px;
      color: rgb(72, 69, 69);
+     height: 300px;
      
    }
   .foter{
