@@ -164,12 +164,14 @@
   .prsnd{
     display: flex;
     justify-content: end;
+   padding: 20px;
   }
   .send{
     
     color: black;
     background-color: #FF66FA;
     width: 150px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
